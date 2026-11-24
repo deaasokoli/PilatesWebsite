@@ -15,5 +15,32 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0e6e8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d47a8c;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6b6360;
+    font-size: 15px;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffffff;
+    background-color: #e8a5b3;
 }
